@@ -1,0 +1,61 @@
+/*
+    * selector {
+        propiedad: valor;
+        propiedad: valor;
+    }
+*/
+
+
+/*selector global*/
+h2 { 
+    color: red;
+    font-size: 45px;
+    background-color: aquamarine;
+}
+
+
+/*selector de clase*/
+.soloYo {
+    text-align: right;
+}
+
+/*selector por ID*/
+#miParrafo{
+    margin-top: 80px;
+}
+
+/*para no repetir codigo se usauna clase*/
+.centrar{
+    text-align: center;
+}
+
+.otroParrafo{
+    font-size: 25px;
+}
+
+.color{
+    color: blueviolet;
+}
+
+/*
+ul{
+    text-align: center
+}
+*/
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+/*model box*/
+
